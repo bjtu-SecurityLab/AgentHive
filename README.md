@@ -88,9 +88,13 @@ git clone https://github.com/bjtu-SecurityLab/AgentHive.git
 cd AgentHive
 
 # Install dependencies
-pip install -r requirements.txt  # if available
-# or install core dependencies:
-pip install openai asyncio
+pip install -r requirements.txt
+```
+
+Or install from PyPI:
+
+```bash
+pip install delegateagent
 ```
 
 ### Quick Start
